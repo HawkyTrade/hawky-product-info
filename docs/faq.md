@@ -1,41 +1,121 @@
 # Frequently asked questions
 
-## Does Hawky use WalletConnect?
+## Hawky, account access and Paper Mode
 
-No. Hawky does not offer WalletConnect or a flow for connecting an external wallet. If a site or app claiming to be Hawky asks you to approve an external-wallet connection, close it and use an official Hawky link.
+### What is Hawky Trade?
 
-## What is Paper Mode?
+Hawky is a Solana-focused workspace for receiving signals, reviewing current market context, applying your configured analysis preferences, and managing positions where those features are available. It brings signal review, strategy tools, execution controls and performance review into one product.
 
-Paper Mode reviews signals and market data using simulated execution. It is useful for exploring Hawky and observing how configured preferences affect the workflow. Simulated results do not predict future outcomes.
+### What makes Hawky different?
 
-## Does Paper Mode use live market data?
+Hawky combines custom signal sources with configurable entry and security checks, real market information in Paper Mode, optional probability-based analysis, position-management controls, and tools for reviewing strategy and tracked-wallet signal outcomes. You choose which available tools and settings to use.
 
-Hawky's Paper Mode is designed to use live market data while simulating execution. Data can be delayed, incomplete, or unavailable, and simulated execution cannot reproduce every real-market condition.
+### Does Paper Mode use current market data?
 
-## What does “qualified signal” mean?
+Paper Mode is designed to evaluate signals against current or recent market information while recording simulated execution. Data can be delayed, incomplete or unavailable, and simulated fills cannot reproduce every real-market condition.
 
-It means the signal passed the entry and security checks configured for that account. It is information for the user to review, not a guarantee of performance or a promise that every signal will produce an alert.
+### Does Paper Mode send transactions?
 
-## Can I use a contract address outside Hawky?
+No. Paper Mode records virtual positions and simulated results. It does not submit an on-chain trade. Paper results are useful for learning and review, but they do not predict future performance or Live execution.
 
-Where the interface provides **Copy CA**, you can copy the contract address for independent research or use in another platform. Hawky does not execute actions in that other platform.
+### Does Hawky use WalletConnect or require an external wallet connection?
 
-## Can Hawky execute trades?
+Hawky does not offer WalletConnect or a flow for linking an existing external wallet to run your Hawky workspace. Some supported features may provide separate, clearly identified wallet actions. Never enter a recovery phrase or private key into a Hawky sign-in or Paper workflow; use official Hawky links.
 
-Execution features may be available only on supported platforms and accounts and must be configured by the user. Real execution involves risk, including loss of funds. Review the current options and safeguards shown in your account before enabling them.
+### Can I use the same Hawky account on different platforms?
 
-## How do push notifications work?
+Account and feature availability depends on the supported platform and the access assigned to your account. Use the official Hawky website or app listing for the platform you want, and check the menus shown after signing in.
 
-Users can choose available alert types in **Alerts** and grant notification permission on their browser or device. Delivery depends on platform support, device and browser settings, background behavior, and network availability.
+## Signals and configurable analysis
 
-## Are all features available to every account?
+### Can I receive signals from sources I choose?
 
-No. Features can vary by platform, account access, and configuration. The Hawky interface and official distribution pages show the options currently available to you.
+Hawky supports configurable signal sources, including supported custom sources and tracked-wallet signals. The sources available to you depend on your platform, account access and configuration.
 
-## Where can I find official Hawky links?
+### What can I configure in Entry Filters?
 
-Start at [hawky.trade](https://www.hawky.trade), which lists current product and distribution links.
+Depending on your account and platform, entry analysis can include entry bands, market-quality checks, momentum confirmation, reversal context and RSI preferences. Random Entry is an optional way to introduce variation into the entry process. Each setting is configurable; no combination can guarantee a result.
 
-## How do I report a security concern?
+### What does “qualified signal” mean?
 
-Use the private reporting channel linked from [SECURITY.md](../SECURITY.md). Never include passwords, access tokens, wallet recovery phrases, or private keys in a report.
+A qualified signal has passed the entry and security checks configured for that account at the time of review. It is a prompt to review the opportunity, not a guarantee that a token is safe, that an order will execute, or that the outcome will be profitable.
+
+### What kinds of entry analysis can I configure?
+
+Depending on account access, Hawky offers configurable entry criteria and analysis tools such as market-quality checks, momentum confirmation, reversal context, RSI preferences and entry ranges. The controls explain the settings available in your workspace; no single indicator can predict the market.
+
+### Do security checks guarantee that a token is safe?
+
+No. Checks can surface selected risk information, but they cannot identify every risk or guarantee contract safety, liquidity, honest project behavior or a successful trade. Review the available information and make your own decision.
+
+### Can a signal be useful even if Hawky does not open a position?
+
+Yes. A signal can be reviewed or followed for context even when it does not result in a position. Where available, alerts and Copy CA let you decide what to do next, including independent research outside Hawky.
+
+### What does Copy CA do?
+
+Copy CA copies a token’s contract address to your clipboard. You can use it for independent research or in another platform. Copying an address does not place an order or execute anything outside Hawky.
+
+## Execution and position management
+
+### Can Hawky execute trades automatically?
+
+Execution options depend on the platform, account permissions, selected mode and your configuration. Where Live execution is available and enabled, it can submit real on-chain transactions and carries financial risk. Review the controls and safeguards shown in your account before enabling it.
+
+### What do take-profit, stop-loss and trailing settings do?
+
+They are configurable position-management conditions that can be used to plan partial or full exits and adjust protection as a position changes. Market movement, liquidity, data delays and execution conditions can cause an actual result to differ from a target.
+
+### Which position-management tools can I configure?
+
+Where available, Hawky provides take-profit targets, stop-loss types, trailing protection, Buy Protection and Flat Price Exit. These tools let you define different ways to manage a position; their behavior depends on your settings and actual market and execution conditions.
+
+### What are Buy Protection and Flat Price Exit?
+
+These are optional position-management tools for applying additional configured behavior after an entry. Their availability and effect depend on the settings displayed in your account. They do not remove market, liquidity or execution risk.
+
+### What is Work Offline?
+
+Where supported, Work Offline lets an enabled Hawky session continue operating while you are away from the open interface. Device, browser, platform and connectivity behavior can affect availability. Push notifications also require supported delivery and permission.
+
+### Will Hawky enter every signal that passes my filters?
+
+Not necessarily. The selected mode, execution settings, available balance or simulated budget, position limits, security checks, data freshness and current market conditions can affect whether an entry is accepted or completed.
+
+## Research, statistics and alerts
+
+### What are Brain, Algorithm and Edge?
+
+Brain offers AI-assisted signal analysis where enabled. Algorithm helps evaluate strategy behavior from available completed-position evidence and can adapt a strategy where that feature is enabled. Edge adds a probability-based view alongside your own rules and settings. They are decision-support tools; none guarantees a result or predicts future prices.
+
+### What can I do in Strategy Lab, Strategy Library and Strategy Ranking?
+
+These workspaces help you compare strategy profiles, save or review configurations, examine available historical results and compare ranked outcomes. Where available, you can export or import a strategy package and share a closed-position result card. Results depend on the records, period and settings included; past performance does not promise future results.
+
+### Is Hawky only for autonomous execution?
+
+No. You can use Hawky to review signals and live market context in Paper Mode, study strategy and position results, follow supported alerts or copy a contract address for independent research. Execution is a separate choice controlled by the mode and options available to your account.
+
+### What does Wallet Behavior Drift measure?
+
+It reviews Hawky outcomes associated with signals from tracked wallets. It is not a complete history of those wallets’ on-chain activity and does not claim that a tracked wallet itself earned the PNL shown by Hawky.
+
+### What is Risk Center?
+
+Risk Center brings together risk-related information and controls available to your account. It supports review and decision-making; it does not remove risk or replace your judgment.
+
+### How do CA Alerts and push notifications work?
+
+Where available, CA Alerts let you follow selected contract addresses and configured conditions. In Alerts, you can choose supported notification types and grant permission in your browser or device. Delivery depends on platform support, device settings and network availability.
+
+### Why can data, alerts or results be delayed or incomplete?
+
+Market data, signal sources, networks and devices can be delayed or temporarily unavailable. Hawky may show when information is stale or missing; an unavailable value should not be treated as a favorable reading. Check the timestamp and status in the interface.
+
+### Where can I find official Hawky links or report a security concern?
+
+Start at [hawky.trade](https://www.hawky.trade), which lists current product and distribution links. Security concerns can be reported through the private channel described in [SECURITY.md](../SECURITY.md). Do not include passwords, access tokens, wallet recovery phrases or private keys in a report.
+
+---
+
+Feature availability varies by platform, account access and configuration. Hawky’s analysis, statistics and simulated results are informational and do not guarantee safety, execution or future performance.

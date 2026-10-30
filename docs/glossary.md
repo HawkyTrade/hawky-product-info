@@ -6,7 +6,10 @@ Plain-language descriptions of Hawky's user-facing terms and tools. Availability
 A notice about an event in your Hawky account. Available event types and delivery depend on your settings and platform support.
 
 **Algorithm**
-The workspace for reviewing strategy behavior and related analysis. Its insights can help you evaluate a setup, but they do not guarantee an outcome.
+The workspace for evaluating strategy behavior from available completed-position evidence and, where enabled, adapting a strategy. It does not guarantee an outcome.
+
+**Brain**
+AI-assisted signal analysis available in supported Hawky workflows. Its output is decision support, not a guarantee or prediction.
 
 **Analytics**
 Summaries of activity and results over a selected period. The information shown depends on available records and the selected mode or account.
