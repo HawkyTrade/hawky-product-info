@@ -24,7 +24,11 @@ Hawky provides tools and information, not a promise of profit or a substitute fo
 - Website: [hawky.trade](https://www.hawky.trade)
 - Google Play: [Hawky Trade](https://play.google.com/store/apps/details?id=trade.hawky.app)
 - Product overview: [docs/overview.md](docs/overview.md)
+- Getting started: [docs/getting-started.md](docs/getting-started.md)
+- Frequently asked questions: [docs/faq.md](docs/faq.md)
 - Paper Mode: [docs/paper-mode.md](docs/paper-mode.md)
+- Glossary: [docs/glossary.md](docs/glossary.md)
+- Product updates: [CHANGELOG.md](CHANGELOG.md)
 - Responsible use and security: [docs/responsible-use.md](docs/responsible-use.md)
 - Security reporting: [SECURITY.md](SECURITY.md)
 
