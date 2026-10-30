@@ -15,3 +15,9 @@ For the latest version available to you, use the official links on [hawky.trade]
 - Improved the mobile layout and session controls.
 - Made position exposure easier to read.
 - Refined push-notification presentation and overall stability.
+
+## October 2026 — Mobile update (1.0.7, code 11)
+
+- Made navigation easier to scan with more organized menu groups.
+- Unified the look and loading feedback across more areas of the platform.
+- Improved responsiveness when opening analysis tools.
