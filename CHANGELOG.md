@@ -18,11 +18,32 @@ For the latest version available to you, use the official links on [hawky.trade]
 
 ## October 2026 — Website and mobile improvements
 
-- Made account setup clearer with visible password requirements and confirmation feedback.
-- Expanded configurable signal-analysis options.
-- Improved push-notification preferences and the way alerts are presented and managed.
-- Refined mobile layouts, position details, and session actions for easier use on smaller screens.
-- Made navigation and loading feedback more consistent across the platform.
+### Account access and setup
+
+- Added self-service account creation with email-based activation.
+- Made password setup clearer with visible requirements and confirmation feedback.
+- Improved recovery when account activation or initial workspace loading is interrupted.
+- Made the available menus follow the access configured for each account.
+
+### Signals and position monitoring
+
+- Expanded configurable signal-analysis options, including optional RSI-based entry controls.
+- Made qualified-signal details easier to review and added a quick CA-copy action on mobile.
+- Improved position charts, quote-status visibility, and dashboard updates around position changes.
+- Added clearer sell-alert details, including the exit reason and SOL result.
+
+### Notifications and mobile experience
+
+- Added per-account push-notification preferences so users can choose which alert types they receive.
+- Improved the mobile notification center, alert dismissal, and read-state handling.
+- Refined mobile layouts for position exposure, sell confirmations, and session controls.
+- Added iPhone and iPad guidance for installing Hawky as a Home Screen web app and enabling notifications.
+
+### Navigation and responsiveness
+
+- Organized navigation into expandable groups and made menu loading states more consistent.
+- Improved responsiveness when opening analysis tools.
+- Clarified transient connection-status messages to reduce misleading interruption notices.
 
 ## October 2026 — Mobile update (1.0.7, code 11)
 
