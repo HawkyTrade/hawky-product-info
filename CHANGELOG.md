@@ -6,6 +6,11 @@ For the latest version available to you, use the official links on [hawky.trade]
 
 Entries are listed newest first.
 
+## November 2026 — Optional Edge entry confirmation
+
+- Added an optional Edge confirmation for standard Local entries in Paper and Live modes.
+- When enabled, Edge evidence can hold an otherwise-qualified entry; the setting is off by default and remains under the user's control.
+
 ## October 2026 — Mobile update (1.0.7, code 11)
 
 - Made navigation easier to scan with expandable menu groups.
