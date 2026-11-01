@@ -6,6 +6,11 @@ For the latest version available to you, use the official links on [hawky.trade]
 
 Entries are listed newest first.
 
+## November 2026 — Watchlist price projection (Local/Paper)
+
+- Added an experimental probabilistic price corridor to open-position Watchlist charts when sufficient market data is available; charts keep their usual view when a projection cannot be supported.
+- Projection duration follows the configured position hold period. Outcomes from eligible completed positions inform gradual calibration. The projection is informational and does not control trade execution.
+
 ## November 2026 — Optional Edge entry confirmation
 
 - Added an optional Edge confirmation for standard Local entries in Paper and Live modes.
