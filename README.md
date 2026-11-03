@@ -10,12 +10,22 @@ Hawky Trade is a Solana-focused workspace for reviewing market signals, configur
 - Review signals against live market data.
 - Use Paper Mode to explore the workflow with simulated execution. Hawky has no external-wallet connection feature.
 - Receive selected alerts on supported platforms.
-- Where available and enabled, configure execution and position-management tools.
+- Review simulated positions and configure the position-management tools available to your account in Paper Mode.
 - Copy a contract address and continue research in another platform.
 
-## Wallet connection
+## Who's behind Hawky?
 
-Hawky does not offer WalletConnect or any flow for connecting an external wallet. A website or app claiming to be Hawky that asks you to connect an external wallet or approve a wallet-connection request is not an official Hawky flow. Close it and navigate to Hawky using the official links below.
+Hawky is built and maintained by an independent developer, not a company. I created it from scratch to help Solana traders cut through the noise with configurable signal sources, analysis tools, and detailed position statistics—so you can judge what works for you.
+
+Hawky is available on the web and in the Solana Mobile dApp Store. Check [hawky.trade](https://www.hawky.trade) for current Android access and availability.
+
+## Paper Mode and wallet connection
+
+Public Website and mobile accounts currently use Paper Mode only. Paper Mode uses available live or recent market data to record simulated positions; it does not submit on-chain trades or hold or move real funds. Hawky does not offer WalletConnect or another external-wallet connection feature for these accounts.
+
+Official Hawky account sign-in and Paper Mode flows never ask for a recovery phrase or private key. See [Responsible use and security](docs/responsible-use.md) for how to recognize impersonators.
+
+Signals are information for research and review. If you copy a contract address and use it elsewhere, verify it independently and make your own decision. Hawky is not affiliated with third-party platforms you may choose to use.
 
 Hawky provides tools and information, not a promise of profit or a substitute for independent judgment. Digital assets are volatile, and simulated results do not predict future outcomes.
 

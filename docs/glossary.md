@@ -42,7 +42,7 @@ Your configurable criteria for evaluating whether a signal fits your entry prefe
 A saved set of entry preferences used when reviewing signals. Review the selected profile to understand which preferences are active.
 
 **Execution**
-The configured way Hawky handles eligible entries and position exits. Options depend on the selected mode, account, and platform.
+Public Website and mobile accounts use simulated Paper execution and do not submit on-chain trades.
 
 **External wallet connection**
 Hawky does not offer WalletConnect or a flow for connecting an external wallet.
@@ -53,10 +53,7 @@ A signal that Hawky has evaluated using the preferences configured for the accou
 **Flat price exit**
 A configurable position-exit option for conditions where price movement remains limited. Its availability and behavior depend on the selected settings.
 
-**Live execution**
-Execution of real transactions where available and configured. It can involve real funds and financial loss.
-
-**Live market data**
+**Real-time market data**
 Market information reflecting current or recent conditions. Data may be delayed, incomplete, or unavailable.
 
 **Market quality**
@@ -66,7 +63,7 @@ An entry-analysis area for reviewing selected market conditions. Passing these c
 An entry-analysis option that helps assess recent movement when reviewing a candidate. It is one input to a decision, not a prediction.
 
 **Paper Mode**
-A Hawky mode that uses market data with simulated execution. Paper results do not predict real execution or future outcomes.
+The mode available to public Website and mobile accounts. It uses available live or recent market data to record simulated positions; it does not submit on-chain trades or hold user funds.
 
 **PNL (profit and loss)**
 The recorded or estimated gain or loss for a position or period. Unrealized values can change with the market; Paper values are simulated.
@@ -132,7 +129,7 @@ A position-management option that adjusts protection as conditions change, accor
 A public wallet address selected for monitoring. Hawky can associate received signals with tracked addresses; this does not amount to a complete record of a wallet's activity or profitability.
 
 **Wallet**
-A wallet feature available in some Hawky workflows. Hawky may provide in-app wallet creation and management where supported; it does not offer WalletConnect or a flow for connecting an external wallet.
+A user-controlled tool for holding or signing digital-asset transactions. Public Website and mobile Hawky accounts do not connect to an external wallet; optional menu payments are signed separately by the user.
 
 **Wallet Behavior Drift**
 A review of Hawky's recorded outcomes associated with signals from tracked wallets. It does not report the wallet's complete on-chain history or claim the wallet itself earned those results.

@@ -6,15 +6,10 @@ For the latest version available to you, use the official links on [hawky.trade]
 
 Entries are listed newest first.
 
-## November 2026 — Watchlist price projection (Local/Paper)
+## November 2026 — Watchlist price projection (Paper)
 
 - Added an experimental probabilistic price corridor to open-position Watchlist charts when sufficient market data is available; charts keep their usual view when a projection cannot be supported.
 - Projection duration follows the configured position hold period. Outcomes from eligible completed positions inform gradual calibration. The projection is informational and does not control trade execution.
-
-## November 2026 — Optional Edge entry confirmation
-
-- Added an optional Edge confirmation for standard Local entries in Paper and Live modes.
-- When enabled, Edge evidence can hold an otherwise-qualified entry; the setting is off by default and remains under the user's control.
 
 ## October 2026 — Mobile update (1.0.7, code 11)
 
@@ -33,7 +28,6 @@ Entries are listed newest first.
 - Improved account activation and sign-in recovery when a temporary verification or loading issue occurs.
 - Made new accounts start with the currently enabled public menu set, while account-specific menu access remains configurable.
 - Added clearer first-session guidance to help new users get started.
-- Kept Paper and Live execution preferences separate where both modes are available.
 
 ### Signals and configurable analysis
 
@@ -59,7 +53,7 @@ Entries are listed newest first.
 - Made position exposure and Paper performance easier to review.
 - Added clearer sell-alert details, including the exit reason and SOL result.
 - Refined position actions and confirmation dialogs to make sells easier to review on smaller screens.
-- Improved precision when displaying SOL amounts in Live mode.
+- Improved precision when displaying SOL amounts in position history.
 - Added clearer controls for continuing a configured Hawky session while the user is away.
 
 ### Notifications and mobile experience

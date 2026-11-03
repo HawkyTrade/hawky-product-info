@@ -4,11 +4,15 @@
 
 ### What is Hawky Trade?
 
-Hawky is a Solana-focused workspace for receiving signals, reviewing current market context, applying your configured analysis preferences, and managing positions where those features are available. It brings signal review, strategy tools, execution controls and performance review into one product.
+Hawky is a Solana-focused workspace for receiving signals, reviewing market context, applying configurable analysis, and studying simulated positions and outcomes. Public Website and mobile accounts currently use Paper Mode only.
+
+### Who builds Hawky?
+
+Hawky is built and maintained by an independent developer, not a company. It was created from scratch to help Solana traders cut through the noise with configurable signal sources, analysis tools, and detailed position statistics. See [hawky.trade](https://www.hawky.trade) for current platform availability.
 
 ### What makes Hawky different?
 
-Hawky combines custom signal sources with configurable entry and security checks, real market information in Paper Mode, optional probability-based analysis, position-management controls, and tools for reviewing strategy and tracked-wallet signal outcomes. You choose which available tools and settings to use.
+Hawky combines custom signal sources with configurable entry and security checks, market information in Paper Mode, optional probability-based analysis, position-management controls, and tools for reviewing strategy and tracked-wallet signal outcomes. You choose which available tools and settings to use.
 
 ### Does Paper Mode use current market data?
 
@@ -16,11 +20,11 @@ Paper Mode is designed to evaluate signals against current or recent market info
 
 ### Does Paper Mode send transactions?
 
-No. Paper Mode records virtual positions and simulated results. It does not submit an on-chain trade. Paper results are useful for learning and review, but they do not predict future performance or Live execution.
+No. Paper Mode records virtual positions and simulated results using available live or recent market data. It does not submit on-chain trades, hold or move your funds, or create actual balances. Paper results do not predict future outcomes.
 
-### Does Hawky use WalletConnect or require an external wallet connection?
+### Does Hawky connect to an external wallet?
 
-Hawky does not offer WalletConnect or a flow for linking an existing external wallet to run your Hawky workspace. Some supported features may provide separate, clearly identified wallet actions. Never enter a recovery phrase or private key into a Hawky sign-in or Paper workflow; use official Hawky links.
+No. Hawky does not offer WalletConnect or another external-wallet connection for public Website or mobile accounts. If an optional SOL menu payment is available, you initiate and sign it separately in your own wallet; this does not connect your wallet to Hawky or enable trading. Hawky never asks for your recovery phrase or private key. See [Responsible use and security](responsible-use.md) for guidance on impersonators.
 
 ### Can I use the same Hawky account on different platforms?
 
@@ -54,13 +58,9 @@ Yes. A signal can be reviewed or followed for context even when it does not resu
 
 ### What does Copy CA do?
 
-Copy CA copies a token’s contract address to your clipboard. You can use it for independent research or in another platform. Copying an address does not place an order or execute anything outside Hawky.
+Copy CA copies a token’s contract address to your clipboard. You can use it for independent research or in another platform. Copying an address does not place an order or execute anything outside Hawky, and Hawky is not affiliated with third-party platforms you may choose to use.
 
 ## Execution and position management
-
-### Can Hawky execute trades automatically?
-
-Execution options depend on the platform, account permissions, selected mode and your configuration. Where Live execution is available and enabled, it can submit real on-chain transactions and carries financial risk. Review the controls and safeguards shown in your account before enabling it.
 
 ### What do take-profit, stop-loss and trailing settings do?
 
@@ -92,9 +92,9 @@ Brain offers AI-assisted signal analysis where enabled. Algorithm helps evaluate
 
 These workspaces help you compare strategy profiles, save or review configurations, examine available historical results and compare ranked outcomes. Where available, you can export or import a strategy package and share a closed-position result card. Results depend on the records, period and settings included; past performance does not promise future results.
 
-### Is Hawky only for autonomous execution?
+### Can I use Hawky for research without making a trade?
 
-No. You can use Hawky to review signals and live market context in Paper Mode, study strategy and position results, follow supported alerts or copy a contract address for independent research. Execution is a separate choice controlled by the mode and options available to your account.
+Yes. Review signals and market context in Paper Mode, study simulated position results, follow supported alerts, or copy a contract address for independent research. Public Website and mobile accounts do not submit on-chain trades.
 
 ### What does Wallet Behavior Drift measure?
 

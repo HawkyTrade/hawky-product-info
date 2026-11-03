@@ -4,7 +4,7 @@ This guide introduces the basic Hawky workflow. Features and access can vary by 
 
 ## 1. Open an official Hawky app
 
-Use [hawky.trade](https://www.hawky.trade) or the official app link published on the website. On Android, Hawky Trade is available on [Google Play](https://play.google.com/store/apps/details?id=trade.hawky.app).
+Use [hawky.trade](https://www.hawky.trade) or the official app link published on the website. On Android, check the official [Google Play listing](https://play.google.com/store/apps/details?id=trade.hawky.app) for current access and availability.
 
 ## 2. Create and activate your account
 
@@ -12,7 +12,7 @@ Create an account with your username and email address. Follow the password setu
 
 ## 3. Review your workspace
 
-Use the in-product setup guidance to review the settings and features available to your account. Hawky does not offer WalletConnect or a flow for connecting an external wallet.
+Use the in-product setup guidance to review the settings and features available to your account. Public Website and mobile accounts use Paper Mode only. For wallet-connection and impersonation guidance, see [Responsible use and security](responsible-use.md).
 
 ## 4. Start with Paper Mode
 

@@ -8,7 +8,7 @@ Hawky Trade is a configurable workspace for reviewing Solana signals, current ma
 
 Users can work with supported built-in and custom signal sources, including tracked-wallet signals where available. Hawky applies the entry preferences and security checks configured for the account and presents the resulting signal for review. A qualified signal reflects those configured checks at the time of evaluation; it is not a guarantee of token safety, execution, or profit.
 
-Users can review a signal in Hawky, copy its contract address (CA) for independent research, or decide how to use it in another platform. Copying a CA does not initiate a trade.
+Users can review a signal in Hawky, copy its contract address (CA) for independent research, or decide how to use it in another platform. Copying a CA does not initiate a trade or imply that Hawky is affiliated with that platform.
 
 ### Configure analysis
 
@@ -16,11 +16,9 @@ Available entry preferences can include entry ranges, market-quality checks, mom
 
 Brain provides AI-assisted analysis where enabled. Algorithm helps users review strategy behavior from recorded outcomes and can adapt a strategy where that capability is enabled. Edge adds a probability-based perspective alongside the user's own rules. These tools support review and decision-making; they do not predict or guarantee market outcomes.
 
-### Use Paper Mode or supported execution
+### Use Paper Mode
 
-Paper Mode uses current or recent market information with simulated execution. It can be used to explore signal analysis, position management, and recorded outcomes without submitting on-chain trades. Paper results are simulated and do not predict Live execution or future performance.
-
-Where a platform and account support Live execution, users can explicitly configure Hawky to submit real on-chain transactions. Live execution involves real funds and can result in financial loss. Available modes and controls vary by platform, account access, and configuration.
+Public Website and mobile accounts currently use Paper Mode only. It uses available current or recent market information with simulated positions; Hawky does not submit on-chain trades or hold or move user funds. Paper results do not predict future outcomes.
 
 ### Manage and review positions
 
@@ -42,11 +40,11 @@ Setup Guide provides a guided introduction to the workspace and its available ac
 
 ## Wallet connection
 
-Hawky does not offer WalletConnect or a flow for connecting an existing external wallet. Paper Mode does not require a wallet connection. Any wallet-management or execution features shown in a supported platform are separate, account-dependent product capabilities.
+Hawky does not offer WalletConnect or another external-wallet connection for public Website or mobile accounts. If an optional SOL menu payment is available, the user initiates and signs it separately in their own wallet; this does not connect that wallet to Hawky or enable trading.
 
 ## A user-controlled workflow
 
-Configure the available signal sources and analysis preferences, review the information Hawky presents, then choose whether to observe, use Paper Mode, copy a CA for independent research, or use another explicitly available action. Hawky provides tools and recorded context; the user remains in control of their choices.
+Configure the available signal sources and analysis preferences, review the information Hawky presents, use Paper Mode to study simulated outcomes, or copy a CA for independent research. Hawky provides tools and recorded context; the user remains in control of their choices.
 
 ## Availability and limitations
 
