@@ -17,7 +17,7 @@ Hawky Trade is a Solana-focused workspace for reviewing market signals, configur
 
 Hawky is built and maintained by an independent developer, not a company. I created it from scratch to help Solana traders cut through the noise with configurable signal sources, analysis tools, and detailed position statistics—so you can judge what works for you.
 
-Hawky is available on the web and in the Solana Mobile dApp Store. Check [hawky.trade](https://www.hawky.trade) for current Android access and availability.
+Hawky is available on the web and in the Solana Mobile dApp Store. Google Play access is currently limited to enrolled testers while Hawky completes Google's required closed-testing process before production access. Public downloads are not yet available; check [hawky.trade](https://www.hawky.trade) for current tester instructions.
 
 ## Paper Mode and wallet connection
 
@@ -32,7 +32,7 @@ Hawky provides tools and information, not a promise of profit or a substitute fo
 ## Learn more
 
 - Website: [hawky.trade](https://www.hawky.trade)
-- Google Play: [Hawky Trade](https://play.google.com/store/apps/details?id=trade.hawky.app)
+- Google Play: Hawky Trade is in Google's required closed-testing phase before production access. Public downloads are not yet available; current tester instructions are on [hawky.trade](https://www.hawky.trade).
 - Product overview: [docs/overview.md](docs/overview.md)
 - Getting started: [docs/getting-started.md](docs/getting-started.md)
 - Frequently asked questions: [docs/faq.md](docs/faq.md)
