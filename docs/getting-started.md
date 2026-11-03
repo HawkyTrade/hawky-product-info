@@ -4,7 +4,7 @@ This guide introduces the basic Hawky workflow. Features and access can vary by 
 
 ## 1. Open an official Hawky app
 
-Use [hawky.trade](https://www.hawky.trade) or the official app links published there. On Android, Google Play access is currently limited to enrolled testers while Hawky completes Google's required closed-testing process before production access. Public downloads are not yet available; follow the current tester instructions on the official website.
+Use [hawky.trade](https://www.hawky.trade) or the official app links published there. On Android, Google Play access is currently limited to enrolled testers while Hawky completes Google's required closed-testing process before production access. Public downloads are not yet available; see [the Google Play testing announcement on X](https://x.com/HawkyTrade/status/2115141480603845028) for tester instructions.
 
 ## 2. Create and activate your account
 
