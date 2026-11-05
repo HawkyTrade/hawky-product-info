@@ -14,9 +14,11 @@ Entries are ordered newest first. Hawky platform versions and Android app versio
 - Expanded position review and sharing, including result cards based on the combined outcome of a closed Paper position.
 - Expanded strategy and risk research with Strategy Lab, Strategy Library, Strategy Ranking, and Risk Center for accounts with access.
 - Improved password setup and activation feedback, notification preferences, mobile position controls, navigation, and responsive layouts.
+- Expanded Paper wallet management with virtual balances that track realized Paper results, per-wallet deletion, and preservation of recorded position history.
+- Improved PNL and Sells history review with paginated closed-position results and performance summaries for the selected daily, weekly, or monthly period.
 
 ### Reliability and bug fixes
-
+- Fixed history pagination and period-selection persistence across navigation and refreshes.
 - Corrected issues in candidate intake, review status, and the handoff from signal analysis to position monitoring.
 - Improved quote freshness and recovery, chart refresh behavior, and position updates during open and close transitions.
 - Fixed account activation, session recovery, notification-state, and menu-loading issues.
