@@ -4,6 +4,41 @@ This document is a user-facing summary of documented Hawky platform release chec
 
 Entries are ordered newest first. Hawky platform versions and Android app versions are separate release tracks. Android app v1.0.0 was introduced alongside Hawky platform v2.6.0; Android version numbers are not platform version numbers. This history does not imply that every feature is enabled for every account or distribution channel.
 
+## Hawky platform v2.7.0 update — November 2026
+
+### Strategy and analysis intelligence
+
+- Added a Performance Breakdown to Algorithm that groups closed Paper positions by signal source, pool type, exit reason and holding time, so the sources and exits that make or lose money are visible at a glance.
+- Added Winning Settings to Algorithm: it compares the filter and exit settings of an account's best and worst recent strategies with the current configuration and marks each setting as matching the winners or sitting closer to the losers. It is advice only and never changes settings automatically.
+- Introduced a self-calibrating entry score that runs alongside the existing Hawky score in observation mode. It retrains from closed Paper positions on a rolling window and only replaces its active calibration with one that performed better on positions it had not seen; if results regress, it searches for a better calibration on its own. It does not block or size entries.
+- Added observation-mode regime guards in Algorithm: a performance pause after a losing streak and a self-calibrated trading-hours filter. Each Paper entry records what the guards would have done, so their value can be measured before either is allowed to act.
+- Edge now provides an entry advisory for Hawky Local: every Local Paper entry shows a calibrated win probability and a Favorable / Neutral / Unfavorable verdict relative to the strategy's recent entries. In automatic mode the advisory earns influence step by step (observe, then reduced size, then skipping the weakest entries) only after closed positions prove it right, and steps back when newer results stop confirming it. Influence applies to Paper only.
+- Improved Edge probability estimates and added a discrimination measure next to calibration, so it is clear whether Edge can actually tell stronger entries from weaker ones. Default Edge Paper exit settings were updated based on recorded position behavior.
+- Added a Realized Risk panel to Risk Center with drawdown from the equity peak, losing streaks, average win versus average loss, tail loss, the real result of stop-loss exits compared with the configured stop, daily results, and a position-size guide.
+- Filtered Signals now show each entry's return, exit type, holding time, advisory verdict and score, with a win-rate and net summary of the listed entries.
+- Wallet Behavior Drift now includes a wallet value summary showing which followed wallets contributed the most and the least to Paper results. Nothing is unfollowed automatically.
+
+### Entry safeguards
+
+- The first-minute launch guard (anti-scam) now receives real launch evidence more often and rejects confirmed oversized launches earlier, before they reach the candidate list. When evidence is not available, the check never blocks an entry, and implausible values are ignored.
+- On-chain structural checks no longer mark tokens from other launch venues as unknown when a source suggested a different venue.
+
+### Website, mobile and public site
+
+- Introduced a new public landing page with Paper-mode guidance, store badges and a compact mobile layout.
+- Website Portfolio now shows the account's virtual Paper wallets, active-wallet status and closed-position results instead of an on-chain view.
+- Unified card frames, typography and symmetry across Website, mobile, Android and iOS views, including the square summary cards, Watchlist alignment and header layout.
+- Improved the desktop account toolbar and mobile layouts for Strategy Lab tables and dashboard cards.
+
+### Reliability and performance
+
+- Candidate scanning now continues immediately while eligible signals are waiting instead of pausing between cycles, so queued signals are analyzed sooner.
+- Static token facts resolved by one workspace are now shared with the other workspaces for the lifetime of the signal, reducing repeated work in the shared analysis queue. Prices, liquidity, volume and every account decision remain specific to each workspace.
+- Fixed Strategy Ranking staying in a pending state while trading was active.
+- Fixed the low-score strategy cleanup so it applies to every eligible strategy profile, runs periodically and when the threshold changes, and always keeps the strategy that is currently trading.
+- Corrected the Brain confirmed-entry counter, which counted each entry twice, and stopped position lifecycle events from inflating candidate statistics.
+- Corrected stop-loss labels in Risk Center, research history retention and multi-timeframe research statistics, and Prefilter source switches that did not reflect their live state immediately.
+
 ## Hawky platform v2.7.0 — November 2026
 
 ### New and expanded capabilities
