@@ -59,6 +59,19 @@ Entries are ordered newest first. Hawky platform versions and Android app versio
 - Fixed account activation, session recovery, notification-state, and menu-loading issues.
 - Corrected inconsistencies in position summaries, shared results, and mobile layouts.
 
+## Android app v1.0.9 — November 2026, version code 13
+
+- New risk protection filters in Entry Filters to help avoid high-risk tokens, including an optional advanced filter that is off by default.
+- Faster analysis when many accounts are active, with shorter waiting times.
+- Paper Portfolio for Website accounts now shows virtual wallets and closed-trade results.
+- Algorithm adds new performance and risk insights, including best-settings comparisons and drawdown tracking.
+- Stronger protection against suspicious new tokens.
+- More reliable signal sources, with clearer status when a source has no data.
+- Phone layout improvements across every menu: uniform cards, easier-to-read help text and cleaner navigation.
+- Stability and accuracy fixes across trading statistics and the scanner.
+
+This is an Android app milestone, separate from Hawky platform v2.7.0.
+
 ## Android app v1.0.7 — October 2026 test build, version code 11
 
 - Grouped navigation into expandable sections and improved visual consistency and loading feedback.
@@ -205,6 +218,7 @@ These are summaries of documented release checkpoints, not a claim that every in
 
 ## Android app milestones — separate version track
 
+- **Android app v1.0.9, version code 13:** update with new risk protection filters, faster analysis, Website Paper Portfolio and phone layout improvements.
 - **Android app v1.0.7, version code 11:** test build with navigation, loading, and mobile-control refinements.
 - **Android app v1.0.4:** early-access update focused on mobile layout, position exposure, session controls, and notification presentation.
 - **Android app v1.0.1:** Solana Mobile dApp Store launch milestone.
