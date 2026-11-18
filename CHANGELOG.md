@@ -18,11 +18,11 @@ Entries are ordered newest first. Hawky platform versions and Android app versio
 - Every price update passes continuity checks: an unusual jump has to be confirmed before it can trigger an exit.
 - Position prices recover faster after a restart.
 
-### Strategy and filters
+### New entry filters
 
 - Added an Entry Hours filter: new entries can be switched on or off for each hour of the day, in the account's own time zone.
 - Algorithm can apply its winning hours to the Entry Hours filter automatically, or on request.
-- Added a check for suspicious bundled token launches.
+- Added a bundled-launch check: tokens whose launch shows signs of a coordinated group buy are flagged as suspicious and can be kept out of new entries.
 
 ### Charts and Watchlist
 
@@ -49,7 +49,7 @@ Entries are ordered newest first. Hawky platform versions and Android app versio
 
 - Much faster scanning and decisions when many accounts are active at the same time.
 - Open positions update in near real time, so take-profit and stop-loss react sooner.
-- New Entry Hours filter: choose the hours of the day when Hawky may open new trades, or let the Algorithm apply the winning hours for you.
+- New filters: Entry Hours lets you choose when Hawky may open trades (or apply the Algorithm's winning hours), plus a new check against suspicious bundled launches.
 - "Why did Hawky skip this?" explanations, smoother checkboxes and many stability fixes.
 
 This is an Android app milestone, separate from Hawky platform v2.7.0.
