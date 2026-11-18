@@ -6,23 +6,22 @@ Entries are ordered newest first. Hawky platform versions and Android app versio
 
 ## Hawky platform v2.7.0 update — late November 2026
 
-### Scanning speed with many accounts
+### Faster with many traders online
 
-- Analysis work is now shared between accounts that receive the same signal: a token analyzed for one workspace can be evaluated by the others right away instead of being analyzed again. Every account still applies its own filters, strategy and decisions.
-- Several different tokens can now be analyzed at the same time, which shortens the waiting time in the shared analysis queue when many accounts are online.
-- Data-source usage now follows automatic spending limits, so the service stays available for the whole month instead of running out early.
+- Hawky stays fast when many accounts are online at the same time, so new signals are checked and acted on sooner.
+- More consistent service availability throughout the month.
 
 ### Open positions
 
-- Open Paper positions now refresh their price in near real time, so take-profit and stop-loss react sooner.
-- Every price update passes continuity checks: an unusual jump has to be confirmed before it can trigger an exit.
-- Position prices recover faster after a restart.
+- Open Paper positions now update their price in near real time, so take-profit and stop-loss react sooner.
+- More accurate exits during sudden price moves.
+- Position prices are available again faster after maintenance.
 
 ### New entry filters
 
 - Added an Entry Hours filter: new entries can be switched on or off for each hour of the day, in the account's own time zone.
 - Algorithm can apply its winning hours to the Entry Hours filter automatically, or on request.
-- Added a bundled-launch check: tokens whose launch shows signs of a coordinated group buy are flagged as suspicious and can be kept out of new entries.
+- Added a bundled-launch check that helps keep suspicious token launches out of new entries.
 
 ### Charts and Watchlist
 
@@ -33,17 +32,17 @@ Entries are ordered newest first. Hawky platform versions and Android app versio
 ### Website and mobile
 
 - Added "Why did Hawky skip this?" in Brain, with a plain-language explanation of why a token was not bought.
-- Suggestions and bug reports are sorted faster and answered with a prepared reply.
+- Suggestions and bug reports get faster replies.
 - Checkboxes now change only when the box itself is tapped or clicked, so settings are not changed by accident.
 - First sign-in now uses a single checkbox for the Terms of Service and the Privacy Policy.
 - Added an Android early-access page with the steps to join the test.
 
 ### Reliability
 
-- More stable saving when many accounts write at the same time.
-- Automatic recovery when a data source runs out of capacity, without a restart.
-- Diagnostics now reports incidents automatically and shows a notice when a restart is recommended.
-- Fixed signal deliveries that could stall under load and scan cycles that did not resume after a pause.
+- Improved stability when many accounts are active at the same time.
+- Fewer interruptions and quicker recovery from service issues.
+- Clearer incident reports and maintenance notices in Diagnostics.
+- Fixed cases where new signals could arrive late.
 
 ## Android app v1.1.0 — November 2026, version code 14
 
